@@ -179,8 +179,16 @@ pip install -r requirements.txt
 ```bash
 python scripts/download_data.py
 # Dataset: UCI SMS Spam Collection (5,574 messages)
+# Source: https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
 # Classes: 4,827 ham, 747 spam (13.4% spam rate)
 ```
+
+**Dataset Information:**
+- **Source:** [SMS Spam Collection Dataset](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) from UCI Machine Learning Repository
+- **Size:** 5,574 SMS messages
+- **Labels:** Binary (spam / ham)
+- **Format:** Tab-separated values (label + message text)
+- **License:** Public domain for research and educational purposes
 
 ### 3. Create Train/Test Split (Week 4)
 ```bash
@@ -528,8 +536,4 @@ Each stage builds on this foundation!
 
 ## 📞 Support
 
-- Review Jupyter notebooks step-by-step
-- Check MLflow UI at http://localhost:5000
-- Run tests: `pytest tests/ -v`
-- Debug with print statements and breakpoints
-
+- Call victor cabello for quiestions
