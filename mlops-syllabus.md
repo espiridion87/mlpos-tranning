@@ -8,7 +8,11 @@ A structured learning path for DevOps engineers transitioning to MLOps roles. Th
 ## Week 1 – ML Basics I: Introduction to Models
 
 * **Learning Focus**: What is a model, loss functions, gradient descent, hyperparameters
-* **Estimated Time**: 115 min
+* **Google Cloud Skills Boost**: [MLOps: Getting Started](https://www.skills.google/course_templates/158)
+  * [Machine learning (ML) practitioners' pain points (3 min)](https://www.youtube.com/watch?v=FhQXAh4K0Yg)
+  * [The concept of DevOps in ML (9 min)](https://www.youtube.com/watch?v=crMVhxo0GWA)
+  * [ML lifecycle (5 min)](https://www.youtube.com/watch?v=V6UWNteDHcA)
+  * [Automating the ML process (6 min)](https://www.youtube.com/watch?v=bA1dschO6wo)
 * **Google ML Crash Course**:
   * [Linear Regression](https://developers.google.com/machine-learning/crash-course/linear-regression) (80 min)
   * [Logistic Regression](https://developers.google.com/machine-learning/crash-course/logistic-regression) (35 min)
@@ -18,7 +22,6 @@ A structured learning path for DevOps engineers transitioning to MLOps roles. Th
 ## Week 2 – ML Basics II: Model Evaluation
 
 * **Learning Focus**: Classification metrics, thresholds, confusion matrix, precision, recall, AUC
-* **Estimated Time**: 70 min
 * **Google ML Crash Course**:
   * [Classification](https://developers.google.com/machine-learning/crash-course/classification) (70 min)
 
@@ -34,17 +37,12 @@ A structured learning path for DevOps engineers transitioning to MLOps roles. Th
 
 ---
 
-## Week 4 – Data Quality & MLOps Introduction
+## Week 4 – Data Quality
 
 * **Learning Focus**: Train/test splits, overfitting, generalization, MLOps fundamentals
 * **Estimated Time**: 128 min
 * **Google ML Crash Course**:
   * [Datasets, Generalization, and Overfitting](https://developers.google.com/machine-learning/crash-course/overfitting) (105 min)
-* **Google Cloud Skills Boost**: [MLOps: Getting Started](https://www.skills.google/course_templates/158)
-  * Machine learning (ML) practitioners' pain points (3 min)
-  * The concept of DevOps in ML (9 min)
-  * ML lifecycle (5 min)
-  * Automating the ML process (6 min)
 
 ---
 
