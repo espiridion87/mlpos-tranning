@@ -3,10 +3,10 @@
 ## 🎯 Project Overview
 
 This capstone project brings together the core ML fundamentals from **Weeks 1-4** of the MLOps Learning Program:
-- **Week 1:** ML Basics I - Models, loss functions, gradient descent, hyperparameters
-- **Week 2:** ML Basics II - Classification metrics, evaluation, confusion matrix
-- **Week 3:** Feature Engineering - Data transformation, categorical encoding, feature crosses
-- **Week 4:** Data Quality & MLOps Intro - Train/test splits, overfitting, generalization
+- **[Week 1](./mlops-syllabus.md#week-1--ml-basics-i-introduction-to-models):** ML Basics I - Models, loss functions, gradient descent, hyperparameters
+- **[Week 2](./mlops-syllabus.md#week-2--ml-basics-ii-model-evaluation):** ML Basics II - Classification metrics, evaluation, confusion matrix
+- **[Week 3](./mlops-syllabus.md#week-3--feature-engineering):** Feature Engineering - Data transformation, categorical encoding, feature crosses
+- **[Week 4](./mlops-syllabus.md#week-4--data-quality):** Data Quality & MLOps Intro - Train/test splits, overfitting, generalization
 
 ### What You'll Build
 - ✅ **Binary Classification Model** for SMS spam detection using scikit-learn
@@ -215,7 +215,7 @@ python scripts/train_pipeline.py --experiment-name "week1-4-baseline"
 
 ## 📚 Learning Path: Weeks 1-4
 
-### **Week 1: ML Basics I - Models, Loss Functions, Gradient Descent, Hyperparameters**
+### **[Week 1: ML Basics I - Models, Loss Functions, Gradient Descent, Hyperparameters](./mlops-syllabus.md#week-1--ml-basics-i-introduction-to-models)**
 
 **What You'll Learn:**
 - Models are functions that map input (text) → output (spam/ham)
@@ -258,7 +258,7 @@ for model in models:
 
 ---
 
-### **Week 2: ML Basics II - Classification Metrics, Evaluation, Confusion Matrix**
+### **[Week 2: ML Basics II - Classification Metrics, Evaluation, Confusion Matrix](./mlops-syllabus.md#week-2--ml-basics-ii-model-evaluation)**
 
 **What You'll Learn:**
 - **Accuracy** alone is misleading (with imbalanced data, 87% accuracy by predicting all ham!)
@@ -300,7 +300,7 @@ print(f"Confusion Matrix:\n{cm}")
 
 ---
 
-### **Week 3: Feature Engineering - Text Preprocessing, Encoding, TF-IDF**
+### **[Week 3: Feature Engineering - Text Preprocessing, Encoding, TF-IDF](./mlops-syllabus.md#week-3--feature-engineering)**
 
 **What You'll Learn:**
 - Raw text cannot be fed to models; must convert to numbers
@@ -347,7 +347,7 @@ X_tfidf = tfidf_vectorizer.fit_transform(texts_cleaned)
 
 ---
 
-### **Week 4: Data Quality & Generalization - Train/Test Split, Overfitting**
+### **[Week 4: Data Quality & Generalization - Train/Test Split, Overfitting](./mlops-syllabus.md#week-4--data-quality)**
 
 **What You'll Learn:**
 - **Train/Test Split:** Use 80% for training, 20% for final evaluation
@@ -510,6 +510,13 @@ Each stage builds on this foundation!
 
 ## 🔗 Resources
 
+### Syllabus Reference
+- **[Week 1 Details](./mlops-syllabus.md#week-1--ml-basics-i-introduction-to-models)** - ML Basics I: Introduction to Models
+- **[Week 2 Details](./mlops-syllabus.md#week-2--ml-basics-ii-model-evaluation)** - ML Basics II: Model Evaluation
+- **[Week 3 Details](./mlops-syllabus.md#week-3--feature-engineering)** - Feature Engineering
+- **[Week 4 Details](./mlops-syllabus.md#week-4--data-quality)** - Data Quality & MLOps Introduction
+
+### External Learning Materials
 - **Week 1:** [Linear Regression](https://developers.google.com/machine-learning/crash-course/linear-regression) & [Logistic Regression](https://developers.google.com/machine-learning/crash-course/logistic-regression) from Google ML Crash Course
 - **Week 2:** [Classification](https://developers.google.com/machine-learning/crash-course/classification)
 - **Week 3:** [Working with Text Data](https://scikit-learn.org/stable/modules/feature_extraction.html#text-feature-extraction)
